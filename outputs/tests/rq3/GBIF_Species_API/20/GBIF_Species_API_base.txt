@@ -1,0 +1,5 @@
+{
+    "doc": "https://www.gbif.org/developer/species",
+    "base": "https://api.gbif.org/v1/species/",
+    "nbBaseRoutes": 2
+}

@@ -1,0 +1,66 @@
+{
+    "https://api.gbif.org": {
+        "/v1/species/": {
+            "name": [
+                "Homo+sapiens",
+                "Canis+lupus"
+            ],
+            "rank": [
+                "SPECIES",
+                "GENUS",
+                "FAMILY"
+            ],
+            "limit": [
+                "10",
+                "20",
+                "30"
+            ],
+            "offset": [
+                "0",
+                "20",
+                "40"
+            ],
+            "language": [
+                "en"
+            ],
+            "key": [
+                "Homo+sapiens"
+            ],
+            "kingdom": [
+                "Animalia"
+            ]
+        },
+        "/v1/species/search/": {
+            "name": [
+                "Homo+sapiens"
+            ],
+            "rank": [
+                "SPECIES"
+            ],
+            "limit": [
+                "20",
+                "0"
+            ],
+            "offset": [
+                "0"
+            ],
+            "kingdom": [
+                "Animalia"
+            ]
+        },
+        "/v1/species/match/": {
+            "name": [
+                "Homo+sapiens"
+            ],
+            "rank": [
+                "SPECIES"
+            ],
+            "limit": [
+                "20"
+            ],
+            "offset": [
+                "0"
+            ]
+        }
+    }
+}

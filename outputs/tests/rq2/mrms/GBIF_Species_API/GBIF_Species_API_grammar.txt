@@ -1,0 +1,276 @@
+{
+    "https://api.gbif.org": {
+        "/v1/species/": {
+            "name": [
+                "Homo+sapiens",
+                "Apis+mellifera"
+            ],
+            "rank": [
+                "SPECIES"
+            ],
+            "limit": [
+                "10"
+            ],
+            "offset": [
+                "0"
+            ],
+            "kingdom": [
+                "Animalia"
+            ],
+            "datasetKey": [
+                "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c"
+            ],
+            "phylum": [
+                "Arthropoda"
+            ],
+            "endemic": [
+                "false"
+            ],
+            "species": [
+                "Apis+mellifera"
+            ],
+            "highertaxonKey": [
+                "1"
+            ],
+            "sourceTaxonKey": [
+                "7"
+            ],
+            "facet": [
+                "0"
+            ],
+            "verbose": [
+                "0"
+            ],
+            "facetMincount": [
+                "0"
+            ],
+            "facetMultiselect": [
+                "0"
+            ],
+            "nameType": [
+                "0"
+            ],
+            "facetLimit": [
+                "0"
+            ],
+            "status": [
+                "0"
+            ],
+            "mediaType": [
+                "0"
+            ],
+            "language": [
+                "0"
+            ],
+            "filters": [
+                "0"
+            ],
+            "facetOffset": [
+                "0"
+            ],
+            "facetPrefix": [
+                "0"
+            ],
+            "sort": [
+                "0"
+            ]
+        },
+        "/v1/species/search/": {
+            "name": [
+                "Apis+mellifera",
+                "Homo+sapiens"
+            ],
+            "rank": [
+                "SPECIES"
+            ],
+            "limit": [
+                "10"
+            ],
+            "offset": [
+                "0"
+            ]
+        },
+        "/v1/species/match/": {
+            "name": [
+                "Apis+mellifera",
+                "Mammalia",
+                "Homo+sapiens"
+            ],
+            "rank": [
+                "SPECIES",
+                "KINGDOM"
+            ],
+            "limit": [
+                "10"
+            ],
+            "offset": [
+                "0"
+            ],
+            "status": [
+                "SPECIES",
+                "ACCEPTED"
+            ],
+            "kingdom": [
+                "SPECIES"
+            ],
+            "phylum": [
+                "SPECIES"
+            ],
+            "class": [
+                "SPECIES"
+            ],
+            "order": [
+                "SPECIES"
+            ],
+            "family": [
+                "SPECIES"
+            ],
+            "genus": [
+                "SPECIES"
+            ],
+            "species": [
+                "SPECIES"
+            ],
+            "country": [
+                "SPECIES"
+            ],
+            "publishingCountry": [
+                "SPECIES"
+            ],
+            "isExtinct": [
+                "SPECIES"
+            ],
+            "fuzzy": [
+                "false"
+            ],
+            "strict": [
+                "true",
+                "false"
+            ],
+            "verbose": [
+                "false"
+            ],
+            "canonicalName": [
+                "Mammalia"
+            ],
+            "highestRank": [
+                "false"
+            ],
+            "kingdomKey": [
+                "1"
+            ],
+            "phylumKey": [
+                "44"
+            ],
+            "classKey": [
+                "212"
+            ],
+            "orderKey": [
+                "1446"
+            ]
+        },
+        "/v1/species/suggest/": {
+            "name": [
+                "Apis+mellifera",
+                "Homo+sapiens"
+            ],
+            "rank": [
+                "SPECIES"
+            ],
+            "limit": [
+                "10"
+            ],
+            "offset": [
+                "0"
+            ],
+            "strict": [
+                "0"
+            ],
+            "kingdom": [
+                "0"
+            ],
+            "phylum": [
+                "0"
+            ],
+            "class": [
+                "0"
+            ],
+            "order": [
+                "0"
+            ],
+            "family": [
+                "0"
+            ],
+            "genus": [
+                "0"
+            ],
+            "canonicalName": [
+                "0"
+            ],
+            "synonym": [
+                "0"
+            ],
+            "language": [
+                "0"
+            ]
+        },
+        "/v1/species/lookup/": {
+            "name": [
+                "Apis+mellifera"
+            ],
+            "rank": [
+                "SPECIES"
+            ],
+            "limit": [
+                "10"
+            ],
+            "offset": [
+                "0"
+            ],
+            "status": [
+                "ACCEPTED",
+                "SYNONYM",
+                "HETEROTYPIC_SYNONYM",
+                "DOUBTFUL",
+                "HOMOTYPIC_SYNONYM"
+            ],
+            "verbose": [
+                "true",
+                "false"
+            ],
+            "kingdom": [
+                "ANIMALIA"
+            ],
+            "phylum": [
+                "ARTHROPODA",
+                "SPECIES"
+            ],
+            "class": [
+                "INSECTA",
+                "SPECIES"
+            ],
+            "order": [
+                "HYMENOPTERA",
+                "SPECIES"
+            ],
+            "family": [
+                "APIDAE",
+                "SPECIES"
+            ],
+            "genus": [
+                "APIS",
+                "SPECIES"
+            ],
+            "datasetKey": [
+                "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+                "SPECIES"
+            ],
+            "species": [
+                "SPECIES"
+            ],
+            "nameType": [
+                "SPECIES"
+            ]
+        }
+    }
+}

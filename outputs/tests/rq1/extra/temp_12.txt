@@ -1,0 +1,36 @@
+TEMPERATURE OF 1.2:
+
+['GET http://api.gbif.org/v1/species/search?limit=200',
+'GET http://api.gbif.org/v1/species/4393068',
+'GET http://api.gbif.org/v1/species/843__accept=application/json',
+'GET http://api.gbif.org/v1/species/Pygarctia Mollicula/identifiers',
+'GET http://api.gbif.org/v1/species/search?q=bird',
+'GET http://api.gbif.org/v1/species?family=Accipitridae',
+'GET http://api.gbif.org/v1/species?rank=genus',
+'GET http://api.gbif.org/v1/species/KEY:1868013903',
+'GET http://api.gbif.org/v1/species/6nnqD4As',
+'GET http://api.gbif.org/v1/species/search?protocol=DWC_ARCHIVE&limit=20']
+
+### [`get species_by_key (KP-213) endpoint`,
+`get common Names endpoint`,
+`get species from kingdom Plantae endpoint`,
+`get species for NPS ID (20AREPA) endpoint`,
+`get media for species TP-511 endpoint`,
+`get decendants of Aves node endpoint`,
+`get datasets with occurrence records for FP-139 endpoint`,
+`get localendspan records endpoint for Taxon Bacillus endpoint`,
+`get search info via POST request for species ericius pawlus endpoint`,
+`get known abilities for Taxon Gastropoda endpoint`]"
+
+TEMPERATURE OF 1:
+
+["https://api.gbif.org/v1/species/search?query=Homo%20sapiens",
+"https://api.gbif.org/v1/species/GPA/100000000",
+"https://api.gbif.org/v1/species/match?name=Turdus%20migratorius",
+"https://api.gbif.org/v1/species/search?query=Orcinus%20orca&rank=GENUS",
+"https://api.gbif.org/v1/species/GMBE/3005232",
+"https://api.gbif.org/v1/species/GMBE/3005232/children",
+"https://api.gbif.org/v1/species/GBAYE/174329",
+"https://api.gbif.org/v1/species/search?query=Buteo%20jamaicensis&status=EX",
+"https://api.gbif.org/v1/species/match?name=Chlorocebus%20sabaeus&kingdom=Bacteria",
+"https://api.gbif.org/v1/species/search?query=&limit=50&kingdom=Fungi"]

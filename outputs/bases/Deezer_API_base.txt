@@ -1,0 +1,5 @@
+{
+    "doc": "https://developers.deezer.com/api",
+    "base": "https://api.deezer.com/v1/",
+    "nbBaseRoutes": 1
+}

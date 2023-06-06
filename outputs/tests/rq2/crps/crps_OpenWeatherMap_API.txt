@@ -1,0 +1,29 @@
+Prompt:
+
+Generate 20 examples of complex GET HTTP requests that can be made to the OpenWeatherMap API web service. The example requests need to be in a Python list of the following structure: [request 1, request 2, ...]. The requests should all be valid, have various routes and different parameters. The requests cannot be too similar. Do not forget to include the base route of the API in each request. The API key to be used in requests is the following: f1484466d24084c53f150515f9581709.
+
+Response:
+
+[
+    'http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&cnt=10&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/uvi/forecast?appid=f1484466d24084c53f150515f9581709&lat=51.5074&lon=0.1278',
+    'http://api.openweathermap.org/data/2.5/weather?zip=94040,us&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/onecall?lat=40.7128&lon=-74.0060&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/weather?id=524901&units=metric&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/weather?zip=94107,us&exclude=minutely,hourly&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&lang=de&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/uvi?appid=f1484466d24084c53f150515f9581709&lat=51.5074&lon=0.1278&cnt=7',
+    'http://api.openweathermap.org/data/2.5/weather?q=London,uk&units=imperial&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/weather?zip=94107,us&exclude=minutely,hourly&lang=it&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/onecall?lat=40.7128&lon=-74.0060&units=imperial&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/weather?id=524901&appid=f1484466d24084c53f150515f9581709&lang=es',
+    'http://api.openweathermap.org/data/2.5/weather?q=Paris,fr&exclude=minutely,hourly&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&units=imperial&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/weather?zip=94040,us&lang=de&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/onecall?lat=40.7128&lon=-74.0060&lang=it&appid=f1484466d24084c53f150515f9581709',
+    'http://api.openweathermap.org/data/2.5/weather?id=524901&units=metric&lang=es&appid=f1484466d24084c53f150515
+
+Completion time:
+
+53.32s

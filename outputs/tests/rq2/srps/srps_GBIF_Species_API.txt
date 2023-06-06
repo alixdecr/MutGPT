@@ -1,0 +1,33 @@
+Prompt:
+
+Generate 20 examples of GET HTTP requests that can be made to the GBIF Species API web service. The example requests need to be in a Python list of the following structure: [request 1, request 2, ...].
+
+Response:
+
+[
+'http://api.gbif.org/v1/species?limit=20',
+'http://api.gbif.org/v1/species?rank=genus',
+'http://api.gbif.org/v1/species?rank=family',
+'http://api.gbif.org/v1/species?rank=order',
+'http://api.gbif.org/v1/species?name=Homo',
+'http://api.gbif.org/v1/species?name=Canis',
+'http://api.gbif.org/v1/species?name=Felis',
+'http://api.gbif.org/v1/species?name=Puma',
+'http://api.gbif.org/v1/species?name=Ursus',
+'http://api.gbif.org/v1/species?name=Acinonyx',
+'http://api.gbif.org/v1/species?name=Loxodonta',
+'http://api.gbif.org/v1/species?name=Ziziphus',
+'http://api.gbif.org/v1/species?name=Hippopotamus',
+'http://api.gbif.org/v1/species?name=Mammuthus',
+'http://api.gbif.org/v1/species?name=Diceros',
+'http://api.gbif.org/v1/species?name=Giraffa',
+'http://api.gbif.org/v1/species?name=Tursiops',
+'http://api.gbif.org/v1/species?name=Crocodylus',
+'http://api.gbif.org/v1/species?name=Equus',
+'http://api.gbif.org/v1/species?name=Elephas',
+'http://api.gbif.org/v1/species?name=Panthera'
+]
+
+Completion time:
+
+14.30s

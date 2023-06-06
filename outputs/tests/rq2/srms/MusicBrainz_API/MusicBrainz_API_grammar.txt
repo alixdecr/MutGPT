@@ -1,0 +1,57 @@
+{
+    "https://musicbrainz.org": {
+        "/ws/2/artist/": {
+            "query": [
+                "artist:%22The%20Beatles%22",
+                "artist:\"The"
+            ],
+            "fmt": [
+                "json"
+            ],
+            "limit": [
+                "10",
+                "20",
+                "25"
+            ],
+            "offset": [
+                "10",
+                "20",
+                "0"
+            ],
+            "primarytype": [
+                "group"
+            ],
+            "country": [
+                "GB"
+            ],
+            "subtype": [
+                "group-or-person"
+            ]
+        },
+        "/ws/2/release/": {
+            "query": [
+                "artist:%22The%20Beatles%22",
+                "label:%22Parlophone%22"
+            ],
+            "fmt": [
+                "json"
+            ],
+            "offset": [
+                "10",
+                "0",
+                "25"
+            ],
+            "limit": [
+                "10",
+                "25",
+                "50"
+            ],
+            "country": [
+                "GB"
+            ],
+            "inc": [
+                "artist-credits"
+            ]
+        }
+    }
+}

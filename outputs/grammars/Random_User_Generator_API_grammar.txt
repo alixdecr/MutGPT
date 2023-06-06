@@ -1,0 +1,264 @@
+{
+    "https://randomuser.me": {
+        "/api/": {
+            "results": [
+                "10",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "20"
+            ],
+            "gender": [
+                "male",
+                "female",
+                "1",
+                "non-binary",
+                "2",
+                "20",
+                "3"
+            ],
+            "nat": [
+                "us",
+                "1",
+                "gb",
+                "us,gb,fr,au",
+                "au",
+                "br",
+                "ca",
+                "ch",
+                "de",
+                "dk",
+                "es",
+                "fi",
+                "fr",
+                "ie",
+                "name,location,email",
+                "2",
+                "20",
+                "3",
+                "10",
+                "male"
+            ],
+            "inc": [
+                "name,location,email",
+                "name,picture,location",
+                "name,location,email,phone,picture",
+                "name,email,location",
+                "gender,name,location,email,login,dob",
+                "name,email",
+                "name,gender",
+                "name,location",
+                "name,login",
+                "name,dob",
+                "name,registered",
+                "name,phone",
+                "name,cell",
+                "name,id",
+                "name,picture",
+                "name,nat",
+                "2",
+                "gender,name",
+                "20",
+                "3",
+                "10",
+                "us",
+                "male",
+                "name,email,login,phone,picture"
+            ],
+            "seed": [
+                "example",
+                "1",
+                "abc",
+                "abc123",
+                "love",
+                "sunshine",
+                "hello",
+                "12345",
+                "password",
+                "qwerty",
+                "music",
+                "123456",
+                "coffee",
+                "123456789",
+                "summer",
+                "name,location,email",
+                "2",
+                "20",
+                "aa11bb",
+                "3",
+                "10"
+            ],
+            "exc": [
+                "login",
+                "login,registered",
+                "name,location,email",
+                "login,registered,id",
+                "20",
+                "10"
+            ],
+            "page": [
+                "1",
+                "2",
+                "name,location,email",
+                "20",
+                "3",
+                "10"
+            ],
+            "format": [
+                "1",
+                "pretty",
+                "20"
+            ],
+            "noinfo": [
+                "1",
+                "true",
+                "3"
+            ],
+            "legacy": [
+                "20"
+            ],
+            "reg": [
+                "us"
+            ]
+        },
+        "/api/1.1/": {
+            "results": [
+                "2",
+                "20",
+                "1"
+            ],
+            "gender": [
+                "male",
+                "female"
+            ],
+            "nat": [
+                "us",
+                "gb",
+                "au",
+                "nz",
+                "ca"
+            ],
+            "seed": [
+                "example"
+            ],
+            "page": [
+                "2"
+            ],
+            "exc": [
+                "login"
+            ]
+        },
+        "/api/1.2/": {
+            "results": [
+                "2"
+            ],
+            "seed": [
+                "123",
+                "male",
+                "2"
+            ],
+            "nat": [
+                "us",
+                "au",
+                "br",
+                "ca",
+                "ch",
+                "de",
+                "dk",
+                "es",
+                "fi",
+                "fr",
+                "gb",
+                "ie",
+                "ir",
+                "no",
+                "male",
+                "2"
+            ],
+            "inc": [
+                "gender,name,location,email",
+                "male",
+                "name,location",
+                "2"
+            ],
+            "format": [
+                "pretty",
+                "2"
+            ],
+            "gender": [
+                "male",
+                "female"
+            ],
+            "page": [
+                "2"
+            ]
+        },
+        "/api/1.3/": {
+            "results": [
+                "2",
+                "1",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "20"
+            ],
+            "seed": [
+                "demo"
+            ],
+            "page": [
+                "1"
+            ],
+            "gender": [
+                "male",
+                "female"
+            ],
+            "nat": [
+                "au",
+                "br",
+                "ca",
+                "ch",
+                "de",
+                "dk",
+                "es",
+                "fi",
+                "fr",
+                "gb"
+            ]
+        },
+        "/api/1.4/": {
+            "results": [
+                "2"
+            ],
+            "inc": [
+                "gender,name,location"
+            ],
+            "nat": [
+                "us,gb,fr"
+            ],
+            "seed": [
+                "example"
+            ]
+        }
+    }
+}

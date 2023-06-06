@@ -1,0 +1,5 @@
+{
+    "doc": "https://restcountries.eu/rest/v2/",
+    "base": "https://restcountries.com/v3.1",
+    "nbBaseRoutes": 1
+}

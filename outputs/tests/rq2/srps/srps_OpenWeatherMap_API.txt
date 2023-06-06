@@ -1,0 +1,29 @@
+Prompt:
+
+Generate 20 examples of GET HTTP requests that can be made to the OpenWeatherMap API web service. The API key to be used in requests is the following: f1484466d24084c53f150515f9581709. The example requests need to be in a Python list of the following structure: [request 1, request 2, ...].
+
+Response:
+
+[
+    "http://api.openweathermap.org/data/2.5/weather?APPID=f1484466d24084c53f150515f9581709&q=New%20York",
+    "http://api.openweathermap.org/data/2.5/forecast?APPID=f1484466d24084c53f150515f9581709&q=London",
+    "http://api.openweathermap.org/data/2.5/onecall?APPID=f1484466d24084c53f150515f9581709&lat=37.77&lon=-122.41",
+    "http://api.openweathermap.org/data/2.5/uvi?APPID=f1484466d24084c53f150515f9581709&lat=37.77&lon=-122.41",
+    "http://api.openweathermap.org/data/2.5/weather?APPID=f1484466d24084c53f150515f9581709&zip=94040,us",
+    "http://api.openweathermap.org/data/2.5/forecast?APPID=f1484466d24084c53f150515f9581709&zip=10001,us",
+    "http://api.openweathermap.org/data/2.5/weather?APPID=f1484466d24084c53f150515f9581709&id=524901",
+    "http://api.openweathermap.org/data/2.5/weather?APPID=f1484466d24084c53f150515f9581709&units=metric&q=Paris",
+    "http://api.openweathermap.org/data/2.5/weather?APPID=f1484466d24084c53f150515f9581709&units=imperial&q=New%20Delhi",
+    "http://api.openweathermap.org/data/2.5/forecast?APPID=f1484466d24084c53f150515f9581709&lat=55.5&lon=37.5&cnt=5",
+    "http://api.openweathermap.org/data/2.5/onecall?APPID=f1484466d24084c53f150515f9581709&lat=53.5&lon=27.5&exclude=current,minutely,hourly",
+    "http://api.openweathermap.org/data/2.5/uvi?APPID=f1484466d24084c53f150515f9581709&lat=47.5&lon=7.5&date=2020-09-10",
+    "http://api.openweathermap.org/data/2.5/weather?APPID=f1484466d24084c53f150515f9581709&zip=10002,us&units=imperial",
+    "http://api.openweathermap.org/data/2.5/forecast?APPID=f1484466d24084c53f150515f9581709&zip=10022,us&units=metric",
+    "http://api.openweathermap.org/data/2.5/weather?APPID=f1484466d24084c53f150515f9581709&id=658225&units=metric",
+    "http://api.openweathermap.org/data/2.5/weather?APPID=f1484466d24084c53f150515f9581709&lat=35.68&lon=139.77&units=imperial",
+    "http://api.openweathermap.org/data/2.5/forecast?APPID=f1484466d24084c53f150515f9581709&lat=-23.5&lon=-46.6&cnt=10&units=imperial",
+    "http://api.openweathermap.org/data/2.5/onecall?APPID=f1484466d24084c53f150515f9581709&lat=40.7&lon=-74.0&exclude=minutely,hourly&units=metric
+
+Completion time:
+
+36.39s

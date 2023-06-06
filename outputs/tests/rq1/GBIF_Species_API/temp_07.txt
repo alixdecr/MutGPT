@@ -1,0 +1,10 @@
+["GET http://api.gbif.org/v1/species?limit=10",
+"GET http://api.gbif.org/v1/species?q=Homo+sapiens",
+"GET http://api.gbif.org/v1/species?name=Panthera+leo",
+"GET http://api.gbif.org/v1/species?kingdom=Plantae",
+"GET http://api.gbif.org/v1/species?rank=genus",
+"GET http://api.gbif.org/v1/species?offset=100",
+"GET http://api.gbif.org/v1/species?status=accepted",
+"GET http://api.gbif.org/v1/species?issue=misappliedName",
+"GET http://api.gbif.org/v1/species?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+"GET http://api.gbif.org/v1/species?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&limit=20"]

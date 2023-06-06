@@ -1,0 +1,30 @@
+Prompt:
+
+Generate 20 examples of GET HTTP requests that can be made to the REST Countries API web service. The example requests need to be in a Python list of the following structure: [request 1, request 2, ...].
+
+Response:
+
+['GET https://restcountries.eu/rest/v2/all',
+'GET https://restcountries.eu/rest/v2/name/united states',
+'GET https://restcountries.eu/rest/v2/name/france;netherlands',
+'GET https://restcountries.eu/rest/v2/capital/oslo',
+'GET https://restcountries.eu/rest/v2/region/europe',
+'GET https://restcountries.eu/rest/v2/region/asia;africa',
+'GET https://restcountries.eu/rest/v2/currency/eur',
+'GET https://restcountries.eu/rest/v2/lang/en',
+'GET https://restcountries.eu/rest/v2/lang/es;fr',
+'GET https://restcountries.eu/rest/v2/callingcode/33',
+'GET https://restcountries.eu/rest/v2/alpha/fr',
+'GET https://restcountries.eu/rest/v2/alpha/es;fr',
+'GET https://restcountries.eu/rest/v2/alpha/usa;gbr',
+'GET https://restcountries.eu/rest/v2/alpha/col;bra',
+'GET https://restcountries.eu/rest/v2/alpha/cze;svk',
+'GET https://restcountries.eu/rest/v2/regionalbloc/eu',
+'GET https://restcountries.eu/rest/v2/regionalbloc/au;asean',
+'GET https://restcountries.eu/rest/v2/flag/de',
+'GET https://restcountries.eu/rest/v2/flag/fr;es',
+'GET https://restcountries.eu/rest/v2/flag/uk;us']
+
+Completion time:
+
+12.60s

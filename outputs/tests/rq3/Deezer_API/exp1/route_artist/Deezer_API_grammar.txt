@@ -1,0 +1,156 @@
+{
+    "https://api.deezer.com": {
+        "/artist/27/": {
+            "limit": [
+                "10",
+                "20",
+                "25",
+                "5",
+                "50"
+            ],
+            "index": [
+                "0",
+                "25",
+                "3"
+            ],
+            "output": [
+                "xml",
+                "json",
+                "25"
+            ],
+            "rebuild": [
+                "true"
+            ],
+            "nb": [
+                "10",
+                "20",
+                "25",
+                "50",
+                "1"
+            ],
+            "seed": [
+                "2"
+            ],
+            "timezone": [
+                "Europe/Berlin"
+            ],
+            "lang": [
+                "en_US"
+            ],
+            "sng_id": [
+                "1",
+                "159534112"
+            ],
+            "gzip": [
+                "25"
+            ],
+            "http_response": [
+                "25"
+            ],
+            "format": [
+                "json"
+            ],
+            "input": [
+                "json",
+                "25"
+            ],
+            "recycle": [
+                "true"
+            ],
+            "sng_ids": [
+                "159534112,159534113"
+            ],
+            "album_id": [
+                "27"
+            ],
+            "filter": [
+                "albums",
+                "album"
+            ],
+            "type": [
+                "album,track",
+                "true"
+            ],
+            "albums": [
+                "true",
+                "2"
+            ],
+            "fans": [
+                "true",
+                "2"
+            ],
+            "related": [
+                "true",
+                "2"
+            ],
+            "playlists": [
+                "true"
+            ],
+            "tracks": [
+                "true",
+                "2"
+            ],
+            "radio": [
+                "true",
+                "en_US",
+                "2"
+            ],
+            "comment": [
+                "true"
+            ],
+            "name": [
+                "en_US",
+                "diamond",
+                "true"
+            ],
+            "nb_album": [
+                "en_US",
+                "true"
+            ],
+            "nb_fan": [
+                "en_US",
+                "true"
+            ],
+            "tracklist": [
+                "en_US",
+                "true"
+            ],
+            "preview": [
+                "25"
+            ],
+            "gid": [
+                "true"
+            ],
+            "picture_xl": [
+                "true"
+            ],
+            "link": [
+                "true"
+            ],
+            "picture_small": [
+                "true"
+            ],
+            "picture_medium": [
+                "true"
+            ],
+            "picture": [
+                "true"
+            ],
+            "nb_albums": [
+                "5"
+            ],
+            "nb_fans": [
+                "50"
+            ],
+            "nb_related": [
+                "25"
+            ],
+            "nb_items": [
+                "10"
+            ],
+            "top": [
+                "2"
+            ]
+        }
+    }
+}

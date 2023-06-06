@@ -1,0 +1,30 @@
+Prompt:
+
+Generate 20 examples of complex GET HTTP requests that can be made to the GBIF Species API web service. The example requests need to be in a Python list of the following structure: [request 1, request 2, ...]. The requests should all be valid, have various routes and different parameters. The requests cannot be too similar. Do not forget to include the base route of the API in each request.
+
+Response:
+
+["https://api.gbif.org/v1/species?limit=50",
+"https://api.gbif.org/v1/species?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&limit=100",
+"https://api.gbif.org/v1/species?kingdom=Animalia&limit=20",
+"https://api.gbif.org/v1/species?name=Puma%20concolor&limit=10",
+"https://api.gbif.org/v1/species?rank=genus&limit=50",
+"https://api.gbif.org/v1/species?taxonKey=2437230&limit=3",
+"https://api.gbif.org/v1/species?establishmentMeans=introduced&limit=20",
+"https://api.gbif.org/v1/species?mediaType=StillImage&limit=30",
+"https://api.gbif.org/v1/species?country=US&limit=50",
+"https://api.gbif.org/v1/species?hasCoordinate=true&limit=20",
+"https://api.gbif.org/v1/species?scientificName=Quercus%20coccinea&limit=5",
+"https://api.gbif.org/v1/species?basisOfRecord=FossilSpecimen&limit=10",
+"https://api.gbif.org/v1/species?year=1880&limit=50",
+"https://api.gbif.org/v1/species?publishingCountry=BR&limit=30",
+"https://api.gbif.org/v1/species?typeStatus=isotype&limit=20",
+"https://api.gbif.org/v1/species?threatStatus=vulnerable&limit=50",
+"https://api.gbif.org/v1/species?language=es&limit=30",
+"https://api.gbif.org/v1/species?catalogNumber=12345&limit=20",
+"https://api.gbif.org/v1/species?geometry=POLYGON((-45.0 -10.0, -45.0 10.0, 45.0 10.0, 45.0 -10.0, -45.0 -10.0))&limit=10",
+"https://api.gbif.org/v1/species?publishingOrgKey=b89f3e5c-9a63-4e47-9c77-93561b58a3f5&limit=50"]
+
+Completion time:
+
+18.38s

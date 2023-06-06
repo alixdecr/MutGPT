@@ -1,0 +1,30 @@
+Prompt:
+
+Generate 20 examples of complex GET HTTP requests that can be made to the REST Countries API web service. The example requests need to be in a Python list of the following structure: [request 1, request 2, ...]. The requests should all be valid, have various routes and different parameters. The requests cannot be too similar. Do not forget to include the base route of the API in each request.
+
+Response:
+
+['https://restcountries.eu/rest/v2/all',
+'https://restcountries.eu/rest/v2/name/united%20states',
+'https://restcountries.eu/rest/v2/alpha/us',
+'https://restcountries.eu/rest/v2/alpha?codes=usa;mex',
+'https://restcountries.eu/rest/v2/region/europe',
+'https://restcountries.eu/rest/v2/region/north-america?fields=name;capital;region',
+'https://restcountries.eu/rest/v2/currency/usd',
+'https://restcountries.eu/rest/v2/lang/en',
+'https://restcountries.eu/rest/v2/capital/washington',
+'https://restcountries.eu/rest/v2/callingcode/1',
+'https://restcountries.eu/rest/v2/region/oceania?sort=population',
+'https://restcountries.eu/rest/v2/all?fields=name;region;popualtion;latlng',
+'https://restcountries.eu/rest/v2/name/france?fullText=true',
+'https://restcountries.eu/rest/v2/region/asia?fields=name;capital;currencies;timezones',
+'https://restcountries.eu/rest/v2/capital/berlin?fields=name;alpha2Code;population;region',
+'https://restcountries.eu/rest/v2/currency/eur?fields=name;flag;currencies;nativeName',
+'https://restcountries.eu/rest/v2/lang/es?fields=name;capital;region;subregion;timezones',
+'https://restcountries.eu/rest/v2/callingcode/33?fields=name;alpha2Code;currencies;languages',
+'https://restcountries.eu/rest/v2/region/africa?sort=name&fields=name;capital;population;area',
+'https://restcountries.eu/rest/v2/name/greece?fullText=true&fields=name;alpha2Code;population;languages']
+
+Completion time:
+
+14.55s

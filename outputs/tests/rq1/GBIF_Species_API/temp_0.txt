@@ -1,0 +1,10 @@
+["GET https://api.gbif.org/v1/species/search?q=Homo+sapiens",
+"GET https://api.gbif.org/v1/species/search?q=Canis+lupus",
+"GET https://api.gbif.org/v1/species/search?q=Panthera+leo",
+"GET https://api.gbif.org/v1/species/search?q=Bos+taurus",
+"GET https://api.gbif.org/v1/species/search?q=Equus+caballus",
+"GET https://api.gbif.org/v1/species/search?q=Felis+catus",
+"GET https://api.gbif.org/v1/species/search?q=Ovis+aries",
+"GET https://api.gbif.org/v1/species/search?q=Rattus+norvegicus",
+"GET https://api.gbif.org/v1/species/search?q=Gallus+gallus",
+"GET https://api.gbif.org/v1/species/search?q=Sus+scrofa"]

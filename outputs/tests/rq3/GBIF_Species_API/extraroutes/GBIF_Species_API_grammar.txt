@@ -1,0 +1,20 @@
+{
+    "https://api.gbif.org": {
+        "/v1/species/10/": {},
+        "/v1/species/10/name/": {},
+        "/v1/species/10/descriptions/": {},
+        "/v1/species/10/references/": {},
+        "/v1/species/10/distributions/": {},
+        "/v1/species/10/vernacularNames/": {},
+        "/v1/species/10/speciesProfiles/": {},
+        "/v1/species/10/media/": {},
+        "/v1/species/": {},
+        "/v1/species/10/children/": {},
+        "/v1/species/10/synonyms/": {},
+        "/v1/species/search/": {},
+        "/v1/species/suggest/": {},
+        "/v1/species/match/": {},
+        "/v1/species/10/identifier/": {},
+        "/v1/species/10/parents/": {}
+    }
+}

@@ -1,0 +1,30 @@
+Prompt:
+
+Generate 20 examples of GET HTTP requests that can be made to the MusicBrainz API web service. The example requests need to be in a Python list of the following structure: [request 1, request 2, ...].
+
+Response:
+
+['GET http://musicbrainz.org/ws/2/artist',
+'GET http://musicbrainz.org/ws/2/artist/?query=artist:Radiohead',
+'GET http://musicbrainz.org/ws/2/release/?query=artist:The%20Beatles',
+'GET http://musicbrainz.org/ws/2/recording/?query=release:The%20Dark%20Side%20of%20the%20Moon',
+'GET http://musicbrainz.org/ws/2/work/?query=artist:The%20Doors',
+'GET http://musicbrainz.org/ws/2/label/?query=area:England',
+'GET http://musicbrainz.org/ws/2/release-group/?query=artist:Kendrick%20Lamar',
+'GET http://musicbrainz.org/ws/2/artist/?query=type:Group',
+'GET http://musicbrainz.org/ws/2/release/?query=artist:Elton%20John&status=official',
+'GET http://musicbrainz.org/ws/2/recording/?query=artist:The%20Rolling%20Stones&limit=10',
+'GET http://musicbrainz.org/ws/2/release-group/?query=primarytype:Album&fmt=json',
+'GET http://musicbrainz.org/ws/2/release/?query=artist:Frank%20Sinatra&offset=10',
+'GET http://musicbrainz.org/ws/2/release/?query=artist:Bob%20Marley&fmt=xml',
+'GET http://musicbrainz.org/ws/2/release-group/?query=artist:Miles%20Davis&type=Single',
+'GET http://musicbrainz.org/ws/2/release-group/?query=artist:John%20Coltrane&type=Compilation',
+'GET http://musicbrainz.org/ws/2/release/?query=artist:Jimi%20Hendrix&status=bootleg',
+'GET http://musicbrainz.org/ws/2/release-group/?query=primarytype:EP',
+'GET http://musicbrainz.org/ws/2/artist/?query=type:Person&limit=25',
+'GET http://musicbrainz.org/ws/2/recording/?query=artist:The%20Strokes&fmt=json&offset=20',
+'GET http://musicbrainz.org/ws/2/release/?query=artist:Led%20Zeppelin&fmt=xml&limit=50']
+
+Completion time:
+
+18.13s

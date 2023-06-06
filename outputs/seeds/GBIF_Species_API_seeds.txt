@@ -1,0 +1,17 @@
+https://api.gbif.org/v1/species/10
+https://api.gbif.org/v1/species/10/name/
+https://api.gbif.org/v1/species/10/descriptions/
+https://api.gbif.org/v1/species/10/references/
+https://api.gbif.org/v1/species/10/distributions/
+https://api.gbif.org/v1/species/10/vernacularNames/
+https://api.gbif.org/v1/species/10/speciesProfiles/
+https://api.gbif.org/v1/species/10/media/
+https://api.gbif.org/v1/species/
+https://api.gbif.org/v1/species/10/children/
+https://api.gbif.org/v1/species/10/synonyms/
+https://api.gbif.org/v1/species/10/
+https://api.gbif.org/v1/species/search/
+https://api.gbif.org/v1/species/suggest/
+https://api.gbif.org/v1/species/match/
+https://api.gbif.org/v1/species/10/identifier/
+https://api.gbif.org/v1/species/10/parents/

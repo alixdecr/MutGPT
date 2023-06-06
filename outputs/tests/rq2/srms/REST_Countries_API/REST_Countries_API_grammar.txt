@@ -1,0 +1,23 @@
+{
+    "https://restcountries.com": {
+        "/v3.1/": {},
+        "/v3.1/all/": {
+            "fields": [
+                "name;capital;currencies;timezones",
+                "area;region;languages",
+                "population;capital;borders",
+                "name;capital;currencies;population;region;subregion;timezones",
+                "name;alpha2Code;alpha3Code",
+                "name;population;region;area",
+                "name;region;currencies;timezones",
+                "name;capital;population;region;subregion;latlng;flag;"
+            ],
+            "select": [
+                "name;capital;currencies;population;region;subregion;timezones"
+            ],
+            "page": [
+                "2"
+            ]
+        }
+    }
+}

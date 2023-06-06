@@ -1,0 +1,95 @@
+{
+    "https://api.chucknorris.io": {
+        "/jokes/random/": {
+            "category": [
+                "dev",
+                "movie",
+                "food",
+                "celebrity",
+                "science",
+                "political",
+                "sport",
+                "religion",
+                "animal",
+                "history",
+                "music",
+                "travel",
+                "career",
+                "money",
+                "fashion",
+                "explicit"
+            ],
+            "icon_url": [
+                "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+                "career",
+                "None",
+                "https://assets.chucknorris.host/img/avatar/chuck-norris_80.png",
+                "https://assets.chucknorris.host/img/avatar/chuck-norris_100.png",
+                "https://assets.chucknorris.host/img/avatar/chuck-norris_150.png",
+                "https://assets.chucknorris.host/img/avatar/chuck-norris_250.png",
+                "null",
+                "history"
+            ],
+            "image_url": [
+                "https://assets.chucknorris.host/img/avatar/chuck-norris.png"
+            ],
+            "query": [
+                "career",
+                "joke",
+                "history",
+                "celebrity"
+            ],
+            "limit": [
+                "5",
+                "10",
+                "history"
+            ],
+            "exclude": [
+                "[joke1,joke2]",
+                "[chuck,nerdy]",
+                "[category]"
+            ],
+            "type": [
+                "single"
+            ],
+            "id": [
+                "[joke1,joke2]"
+            ],
+            "limitTo": [
+                "[nerdy,explicit]",
+                "nerdy",
+                "explicit",
+                "dev",
+                "movie",
+                "food",
+                "celebrity",
+                "science",
+                "political",
+                "sport",
+                "religion",
+                "animal",
+                "history",
+                "music",
+                "travel",
+                "career",
+                "money",
+                "fashion"
+            ],
+            "locale": [
+                "en"
+            ],
+            "escape": [
+                "true",
+                "false",
+                "true/false"
+            ],
+            "name": [
+                "history"
+            ],
+            "skip": [
+                "history",
+                "celebrity"
+            ]
+        }
+    }
+}

@@ -1,0 +1,30 @@
+Prompt:
+
+Generate 20 examples of complex GET HTTP requests that can be made to the MusicBrainz API web service. The example requests need to be in a Python list of the following structure: [request 1, request 2, ...]. The requests should all be valid, have various routes and different parameters. The requests cannot be too similar. Do not forget to include the base route of the API in each request.
+
+Response:
+
+['http://musicbrainz.org/ws/2/release/?query=artist:queen&limit=20',
+'http://musicbrainz.org/ws/2/release-group/?query=format:digital+release+date:2007-08&offset=10&limit=5',
+'http://musicbrainz.org/ws/2/label/?query=country:us&fmt=json&limit=10',
+'http://musicbrainz.org/ws/2/release/?query=track:we+will+rock+you&fmt=xml&limit=15',
+'http://musicbrainz.org/ws/2/artist/?query=tag:disco&fmt=json&offset=10&limit=3',
+'http://musicbrainz.org/ws/2/release/?query=release:hot+space&fmt=xml&limit=1',
+'http://musicbrainz.org/ws/2/recording/?query=artist:the+beatles&fmt=json&offset=20&limit=3',
+'http://musicbrainz.org/ws/2/work/?query=artist:madonna&fmt=xml&offset=15&limit=1',
+'http://musicbrainz.org/ws/2/release-group/?query=arid:fdd2a2e6-5d2d-4c8d-bb75-f3f897c5c9cc&fmt=json&limit=2',
+'http://musicbrainz.org/ws/2/release/?query=label:abbey+road+studios&fmt=xml&offset=3&limit=20',
+'http://musicbrainz.org/ws/2/artist/?query=alias:the+rolling+stones&fmt=json&offset=5&limit=4',
+'http://musicbrainz.org/ws/2/release-group/?query=primary+type:album&fmt=xml&offset=7&limit=10',
+'http://musicbrainz.org/ws/2/recording/?query=isrc:us+xr+16+00186&fmt=xml&limit=2',
+'http://musicbrainz.org/ws/2/label/?query=begin:1975-01-01+end:1980-12-31&fmt=json&offset=2&limit=3',
+'http://musicbrainz.org/ws/2/release/?query=discid:6Q7V_3E33_9uQ_LF&fmt=xml&limit=4',
+'http://musicbrainz.org/ws/2/release-group/?query=language:english+release+type:album&fmt=xml&offset=10&limit=1',
+'http://musicbrainz.org/ws/2/recording/?query=artist:elvis+presley+track:hound+dog&fmt=json&limit=5',
+'http://musicbrainz.org/ws/2/artist/?query=sortname:prince+begin:1978-01-01&fmt=xml&limit=3',
+'http://musicbrainz.org/ws/2/release-group/?query=primary+type:album+release+type:promo&fmt=json&offset=20&limit=4',
+'http://musicbrainz.org/ws/2/release/?query=artist:david+bowie+track:starman&fmt=xml&offset=5&limit=10']
+
+Completion time:
+
+25.72s

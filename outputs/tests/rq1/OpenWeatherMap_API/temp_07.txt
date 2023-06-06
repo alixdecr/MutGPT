@@ -1,0 +1,10 @@
+["https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=f1484466d24084c53f150515f9581709",
+"https://api.openweathermap.org/data/2.5/forecast?q=New+York,us&appid=f1484466d24084c53f150515f9581709",
+"https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=f1484466d24084c53f150515f9581709",
+"https://api.openweathermap.org/data/2.5/uvi?lat=35&lon=139&appid=f1484466d24084c53f150515f9581709",
+"https://api.openweathermap.org/data/2.5/weather?id=2172797&appid=f1484466d24084c53f150515f9581709",
+"https://api.openweathermap.org/data/2.5/onecall?lat=35&lon=139&appid=f1484466d24084c53f150515f9581709",
+"https://api.openweathermap.org/data/2.5/weather?zip=94107,us&appid=f1484466d24084c53f150515f9581709",
+"https://api.openweathermap.org/data/2.5/weather?q=Paris,fr&units=imperial&appid=f1484466d24084c53f150515f9581709",
+"https://api.openweathermap.org/data/2.5/weather?q=Rome,it&lang=de&appid=f1484466d24084c53f150515f9581709",
+"https://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&cnt=10&appid=f1484466d24084c53f150515f9581709"]

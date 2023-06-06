@@ -1,0 +1,13 @@
+https://musicbrainz.org/ws/2/artist?query=artist:%22The%20Beatles%22&fmt=json&limit=10
+https://musicbrainz.org/ws/2/artist/?query=artist:%22The%20Beatles%22&fmt=json&offset=10&limit=10
+https://musicbrainz.org/ws/2/artist/?query=artist:%22The%20Beatles%22&fmt=json&offset=10&limit=10&primarytype=group
+https://musicbrainz.org/ws/2/artist/?query=artist:%22The%20Beatles%22&fmt=json&offset=20&limit=20
+https://musicbrainz.org/ws/2/release/?query=artist:%22The%20Beatles%22&fmt=json&offset=10&limit=10
+https://musicbrainz.org/ws/2/artist/?query=artist:%22The%20Beatles%22&fmt=json&offset=20&limit=20&primarytype=group&country=GB
+https://musicbrainz.org/ws/2/artist/?query=artist:%22The%20Beatles%22&fmt=json&offset=0&limit=25
+https://musicbrainz.org/ws/2/release/?query=artist:%22The%20Beatles%22&fmt=json&offset=0&limit=25
+https://musicbrainz.org/ws/2/release/?query=artist:%22The%20Beatles%22&fmt=json&offset=25&limit=50
+https://musicbrainz.org/ws/2/artist/?query=artist:%22The%20Beatles%22&fmt=json&offset=0&limit=10&subtype=group-or-person
+https://musicbrainz.org/ws/2/artist/?query=artist:"The
+https://musicbrainz.org/ws/2/release/?query=label:%22Parlophone%22&fmt=json&offset=10&limit=10
+https://musicbrainz.org/ws/2/release/?query=artist:%22The%20Beatles%22&fmt=json&offset=10&country=GB&inc=artist-credits&limit=10

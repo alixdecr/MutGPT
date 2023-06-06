@@ -1,0 +1,13 @@
+https://restcountries.com/v3.1
+https://restcountries.com/v3.1/all/
+https://restcountries.com/v3.1/all/?fields=name;capital;currencies;timezones
+https://restcountries.com/v3.1/all
+https://restcountries.com/v3.1/all/?fields=area;region;languages
+https://restcountries.com/v3.1/all/?fields=population;capital;borders
+https://restcountries.com/v3.1/all/?fields=name;capital;currencies;population;region;subregion;timezones
+https://restcountries.com/v3.1/all/?fields=name;alpha2Code;alpha3Code
+https://restcountries.com/v3.1/all/?fields=name;population;region;area
+https://restcountries.com/v3.1/all/?select=name;capital;currencies;population;region;subregion;timezones
+https://restcountries.com/v3.1/all/?fields=name;region;currencies;timezones
+https://restcountries.com/v3.1/all/?fields=name;region;currencies;timezones&page=2
+https://restcountries.com/v3.1/all/?fields=name;capital;population;region;subregion;latlng;flag;

@@ -1,0 +1,10 @@
+["http://api.openweathermap.org/data/2.5/weather?q=London&appid=f1484466d24084c53f150515f9581709",
+"http://api.openweathermap.org/data/2.5/forecast?q=New+York&appid=f1484466d24084c53f150515f9581709",
+"http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=f1484466d24084c53f150515f9581709",
+"http://api.openweathermap.org/data/2.5/forecast?lat=51.5074&lon=-0.1278&appid=f1484466d24084c53f150515f9581709",
+"http://api.openweathermap.org/data/2.5/weather?zip=94040,us&appid=f1484466d24084c53f150515f9581709",
+"http://api.openweathermap.org/data/2.5/forecast?zip=10001,us&appid=f1484466d24084c53f150515f9581709",
+"http://api.openweathermap.org/data/2.5/weather?id=2172797&appid=f1484466d24084c53f150515f9581709",
+"http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=f1484466d24084c53f150515f9581709",
+"http://api.openweathermap.org/data/2.5/weather?units=metric&appid=f1484466d24084c53f150515f9581709",
+"http://api.openweathermap.org/data/2.5/forecast?units=imperial&appid=f1484466d24084c53f150515f9581709"]
