@@ -2,6 +2,10 @@
 Repository for MutGPT, tool developed by alixdecr.
 
 ## Using the Tool
-To use the tool, go to the `master` branch and download the content.
+1. To use the tool, go to the `master` branch and download the content.
 
-Once downloaded, open your command prompt to the location of the tool and type `py main.py` to launch the tool.
+2. Once downloaded, open a command prompt to the location of the tool's main folder. This folder is where the `main.py` file is located.
+
+3. Type `py main.py` to launch the tool.
+
+4. The tool will then be launched, and ask for certain user inputs in order to execute.
