@@ -3,6 +3,7 @@ Repository for MutGPT, tool developed by alixdecr.
 
 ## Requirements
 An installation of Python version 3.10
+An *OpenAI* key, which can be generated at the following URL: https://platform.openai.com/account/api-keys
 
 ## Using the Tool
 1. To use the tool, go to the `master` branch and download the content.
