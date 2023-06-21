@@ -1,0 +1,9 @@
+colorama
+os
+json
+re
+random
+ast
+time
+requests
+openai
