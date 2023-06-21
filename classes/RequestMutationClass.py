@@ -213,12 +213,12 @@ class RequestMutation:
             listElement = "parameter=value"
 
         elif mutationOperator == "modifyParameterName":
-            element1 = "names"
+            element1 = "parameter names"
             element2 = "a parameter name"
             listElement = "name"
 
         elif mutationOperator == "modifyParameterValue":
-            element1 = "values"
+            element1 = "parameter values"
             element2 = "a parameter value"
             listElement = "value"
 
