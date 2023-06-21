@@ -1,6 +1,9 @@
 # MutGPT
 Repository for MutGPT, tool developed by alixdecr.
 
+## Requirements
+An installation of Python version 3.10
+
 ## Using the Tool
 1. To use the tool, go to the `master` branch and download the content.
 
