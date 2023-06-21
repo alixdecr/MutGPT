@@ -1,5 +1,0 @@
-{
-    "doc": "https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2",
-    "base": "https://musicbrainz.org/ws/2/",
-    "nbBaseRoutes": 2
-}
