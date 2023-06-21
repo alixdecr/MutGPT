@@ -1,5 +1,4 @@
 colorama
-os
 json
 re
 random
