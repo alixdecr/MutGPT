@@ -1,5 +1,0 @@
-{
-    "doc": "https://randomuser.me/documentation",
-    "base": "https://randomuser.me/api/v2/",
-    "nbBaseRoutes": 2
-}
