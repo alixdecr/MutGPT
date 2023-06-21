@@ -10,7 +10,6 @@ class RequestMutation:
 
         # Give me all possible parameter names and values that can replace the <op>=<op> token placeholder as strings of the structure 'param=value', with example values for each parameter.
 
-        """
         self.mutationOperators = {
             "addRoute": {"description": "The <op> token is masking a route of the request. Give me all possible routes that can replace the <op> token placeholder."},
             "removeRoute": {"description": "Remove an existing route."},
@@ -21,12 +20,6 @@ class RequestMutation:
             "modifyParameterName": {"description": "The <op> token is masking a parameter name. Give me all possible parameter names that can replace the <op> token placeholder."},
             "modifyParameterValue": {"description": "The <op> token is masking a parameter value. Give me all possible parameter values that can replace the <op> token placeholder."},
             "resetParameters": {"description": "The <op>=<op> token is masking a parameter name and value. Give me all possible parameter names and values that can replace the <op>=<op> token placeholder. The given answers need to be strings of the structure 'param=value'."}
-        }
-        """
-        self.mutationOperators = {
-            "addRoute": {"description": "The <op> token is masking a route of the request. Give me all possible routes that can replace the <op> token placeholder."},
-            "removeRoute": {"description": "Remove an existing route."},
-            "modifyRoute": {"description": "The <op> token is masking a route of the request. Give me all possible routes that can replace the <op> token placeholder."}
         }
 
 
