@@ -1,5 +1,0 @@
-{
-    "doc": "https://api.helioviewer.org/docs/",
-    "base": "https://api.helioviewer.org/v2/",
-    "nbBaseRoutes": 1
-}
