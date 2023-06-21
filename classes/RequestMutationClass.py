@@ -43,9 +43,10 @@ class RequestMutation:
             if strategy == "allMaskValues":
 
                 # ask LLM for all possible values to replace the mask
-                prompt = f"Give me a Python list only containing all possible and valid values that can replace the <op> token mask in the following request: {maskedRequest}. {self.mutationOperators[mutationOperator]['description']}. Make sure that each value given is valid for the {name}, do NOT invent any routes and parameters, only use real ones that exist in the API. Also make sure that your answer is a Python list of the following structure: ['element1', 'element2', ...]."
+                #prompt = f"Give me a Python list only containing all possible and valid values that can replace the <op> token mask in the following request: {maskedRequest}. {self.mutationOperators[mutationOperator]['description']}. Make sure that each value given is valid for the {name}, do NOT invent any routes and parameters, only use real ones that exist in the API. Also make sure that your answer is a Python list of the following structure: ['element1', 'element2', ...]."
 
-                #prompt = self.generatePrompt(mutationOperator, maskedRequest, name)
+                # UPDATED PROMPT: COMMENT THIS LINE AND UNCOMMENT PREVIOUS LINE FOR PREVIOUS PROMPT
+                prompt = self.generatePrompt(mutationOperator, maskedRequest, name)
 
                 response = makeLLMRequest(prompt, model, randomness, openaiKey)
 
