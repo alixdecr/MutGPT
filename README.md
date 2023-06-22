@@ -16,3 +16,6 @@ An *OpenAI* key, which can be generated at the following URL: https://platform.o
 4. Type `py main.py` to launch the tool.
 
 5. The tool will then be launched, and ask for certain user inputs before executing.
+
+## Contact
+If additional information regarding the tool is required, you can contact me at the following email adress: alix.decr@gmail.com
