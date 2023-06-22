@@ -18,4 +18,4 @@ An *OpenAI* key, which can be generated at the following URL: https://platform.o
 5. The tool will then be launched, and ask for certain user inputs before executing.
 
 ## Contact
-If additional information regarding the tool is required, you can contact me at the following email adress: alix.decr@gmail.com
+If additional information regarding the tool is required, you can contact me at the following email address: alix.decr@gmail.com
